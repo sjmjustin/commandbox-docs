@@ -170,7 +170,8 @@ Every time you start a server, the settings used to start it are saved in a `ser
             "WORKER_NAME": "MyWorker"
         },
         "UndertowOptions": {
-            "ALLOW_UNESCAPED_CHARACTERS_IN_URL": true
+            "ALLOW_UNESCAPED_CHARACTERS_IN_URL": true,
+            "MAX_ENTITY_SIZE": 2097152
         }
     },
     "scripts":{
